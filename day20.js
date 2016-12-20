@@ -1,5 +1,5 @@
 const fs = require('fs');
-var data = fs.readFileSync('data.txt', 'utf8')
+var data = fs.readFileSync('day20Data.txt', 'utf8')
 data = (JSON.stringify(data).split('\\n'))
 var minimum = 0;
 var first = data[0].slice(1)
